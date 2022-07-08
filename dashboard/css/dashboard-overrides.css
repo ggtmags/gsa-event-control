@@ -1,0 +1,18 @@
+.pad-15{
+    padding: 0px 5px;
+    width: 25px;
+}
+.width-30{
+    width:25px !important;
+    padding:0 !important;
+    text-align: center !important;
+}
+.uk-form-width-small {
+    width: 125px;
+}
+
+.uk-button-warning {
+    background-color: #ffcc13;
+    color: #000;
+    border: 1px solid transparent;
+}
