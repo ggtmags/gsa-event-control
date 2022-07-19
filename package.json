@@ -28,6 +28,14 @@
         "file": "com_timer2.html",
         "headerColor": "#9f9bbd",
         "workspace": "GSA-Control"
+      },
+      {
+        "name": "Text Stuff",
+        "title": "Commercial Break",
+        "width": 2,
+        "file": "lower_thirds.html",
+        "headerColor": "#9f9bbd",
+        "workspace": "GSA-Control"
       }
     ],
     "graphics": [
