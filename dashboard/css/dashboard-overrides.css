@@ -16,3 +16,7 @@
     color: #000;
     border: 1px solid transparent;
 }
+
+input.uk-form-width-xsmall {
+    width: 90px;
+}
