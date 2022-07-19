@@ -1,0 +1,93 @@
+@font-face{
+    font-family: dispense;
+    src:url("../fonts/Dispence.otf");
+}
+
+body{
+    font-family: "dispense";
+    color:#ffffff;
+}
+.standings-container{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:1920px;
+    height:1080px;
+}
+
+.hl-color{
+    color:#dada00
+}
+
+.placebox{
+    width:200px;
+    height:80px;
+    position: absolute;
+    top:910px;
+}
+.place-1{
+    left:330px;
+}
+.place-2{
+    left:560px;
+}
+.place-3{
+    left:790px;
+}
+.place-4{
+    left:1020px;
+}
+.place-5{
+    left:1250px;
+}
+.place-6{
+    left:1480px;
+}
+.place-7{
+    left:1710px;
+}
+.prize{
+    width:100%;
+    height:20px;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.name{
+    width:100%;
+    height:20px;
+    line-height: 20px;
+    padding-top:20px;
+    text-align: center;
+}
+.time{
+    width:100%;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+}
+.line{
+    position: absolute;
+    width:1px;
+    height:80px;
+    background-color: #d0d0d0;
+    top:910px;
+}
+.line-1{
+    left:545px;
+}
+.line-2{
+    left:775px;
+}
+.line-3{
+    left:1005px;
+}
+.line-4{
+    left:1235px;
+}
+.line-5{
+    left:1465px;
+}
+.line-6{
+    left:1695px;
+}
