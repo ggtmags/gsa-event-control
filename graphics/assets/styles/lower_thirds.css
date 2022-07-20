@@ -1,0 +1,31 @@
+@font-face{
+    font-family: dispense;
+    src:url("../fonts/Dispence.otf");
+}
+
+body{
+    font-family: "dispense";
+    color:#ffffff;
+}
+.text-container{
+    position: absolute;
+    width: 1434px;
+    height: 540px;
+    top:270px;
+    left:243px;
+    background-color:rgba(34,34,34,.5);
+    border-radius: 43px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgba(218, 218, 0, 1);
+}
+.top-text{
+    padding-top: 155px;
+    width:100%;
+
+}
+
+.hide{
+    display: none;
+}

@@ -48,6 +48,21 @@
         "file": "timer.html",
         "width": 1920,
         "height": 1080
+      },
+      {
+        "file": "starting-soon.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "end-stream.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "brb-stream.html",
+        "width": 1920,
+        "height": 1080
       }
     ]
   }
