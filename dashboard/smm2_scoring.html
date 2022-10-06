@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/dashboard-overrides.css">
+    <style>
+        .uk-form-width-small {
+            width: 125px;
+        }
+   
+        input.uk-form-width-xsmall {
+            width: 35px;
+        }
+        .pad-top-10{
+            padding-top:10px;
+        }
+    </style>
+    </head>
+    <body>
+        <fieldset class="uk-grid-small" class="uk-fieldset">
+            <div class="uk-margin">
+                <div>
+                    Skips, Name, Clears.
+                </div>
+                <div class="uk-float-left">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_1_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="skip_1_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_1_plus">+</button>
+                    <input class="uk-input uk-form-width-small uk-form-small" id="seed_1_name" type="text" placeholder="Name">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_1_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="clear_1_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_1_plus">+</button>
+                </div>
+                
+                <div class="uk-float-left pad-top-10">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_2_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="skip_2_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_2_plus">+</button>
+                    <input class="uk-input uk-form-width-small uk-form-small" id="seed_2_name" type="text" placeholder="Name">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_2_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="clear_2_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_2_plus">+</button>
+                </div>
+                
+                <div class="uk-float-left pad-top-10">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_3_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="skip_3_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_3_plus">+</button>
+                    <input class="uk-input uk-form-width-small uk-form-small" id="seed_3_name" type="text" placeholder="Name">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_3_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="clear_3_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_3_plus">+</button>
+                </div>
+                <div class="uk-float-left pad-top-10">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_4_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="skip_4_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_4_plus">+</button>
+                    <input class="uk-input uk-form-width-small uk-form-small" id="seed_4_name" type="text" placeholder="Name">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_4_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="clear_4_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_4_plus">+</button>
+                </div>
+                <div class="uk-float-left pad-top-10">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_5_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="skip_5_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_5_plus">+</button>
+                    <input class="uk-input uk-form-width-small uk-form-small" id="seed_5_name" type="text" placeholder="Name">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_5_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="clear_5_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_5_plus">+</button>
+                </div>
+                <div class="uk-float-left pad-top-10">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_6_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="skip_6_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_6_plus">+</button>
+                    <input class="uk-input uk-form-width-small uk-form-small" id="seed_6_name" type="text" placeholder="Name">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_6_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="clear_6_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_6_plus">+</button>
+                </div>
+                <div class="uk-float-left pad-top-10">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_7_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="skip_7_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="skip_7_plus">+</button>
+                    <input class="uk-input uk-form-width-small uk-form-small" id="seed_7_name" type="text" placeholder="Name">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_7_minus">-</button>
+                    <input class="uk-input uk-form-width-xsmall uk-form-small" id="clear_7_total" type="text" placeholder="0">
+                    <button class="uk-button uk-button-secondary uk-button-small" id="clear_7_plus">+</button>
+                </div>
+                <div class="uk-float-right">
+                    <br />
+                    <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="updatebutton">Update</button>
+                </div>
+
+            </div>
+            
+        </fieldset>
+        
+    </body>
+    <script src="js/dashboards/smm2.js"></script>
+</html>
