@@ -18,7 +18,7 @@ body{
     text-align: center;
     vertical-align: middle;
     font-size: 100px;
-    text-shadow: 2px 2px 5px rgba(218, 218, 0, 1);
+    text-shadow: 2px 2px 5px rgb(131, 0, 218);
 }
 .top-text{
     padding-top: 155px;
