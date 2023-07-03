@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/dashboard-overrides.css">
+    <style>
+        .uk-form-width-small {
+            width: 125px;
+        }
+    </style>
+
+</head>
+<body>
+    <fieldset class="uk-grid-small" class="uk-fieldset">
+        <div class="uk-margin">
+            Pairing 1 <br />
+            <div class="uk-float-left">
+                <input class="uk-input uk-form-width-small uk-form-small" id="c1_name" type="text" placeholder="Name"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c1_twitter" type="text" placeholder="@Twitter"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c1_pronouns" type="text" placeholder="Pronouns"><br/>
+                <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="swap_1_lc">Left/Ctr</button>
+            </div>
+            <div class="uk-float-left"  style="padding-left: 6px;">
+                <input class="uk-input uk-form-width-small uk-form-small" id="c2_name" type="text" placeholder="Name"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c2_twitter" type="text" placeholder="@Twitter"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c2_pronouns" type="text" placeholder="Pronouns"><br/>
+                <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="swap_1_lr">Left/Right</button>
+            </div>
+            <div class="uk-float-left"  style="padding-left: 7px;">
+                <input class="uk-input uk-form-width-small uk-form-small" id="c3_name" type="text" placeholder="Name"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c3_twitter" type="text" placeholder="@Twitter"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c3_pronouns" type="text" placeholder="Pronouns"><br/>
+                <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="swap_1_cr">Ctr/Right</button>
+            </div>
+        </div> 
+        <div class="uk-margin">
+            Pairing 2 <br />
+            <div class="uk-float-left">
+                <input class="uk-input uk-form-width-small uk-form-small" id="c4_name" type="text" placeholder="Name"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c4_twitter" type="text" placeholder="@Twitter"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c4_pronouns" type="text" placeholder="Pronouns"><br/>
+                <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="swap_2_lc">Left/Ctr</button>
+            </div>
+            <div class="uk-float-left" style="padding-left: 6px;">
+                <input class="uk-input uk-form-width-small uk-form-small" id="c5_name" type="text" placeholder="Name"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c5_twitter" type="text" placeholder="@Twitter"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c5_pronouns" type="text" placeholder="Pronouns"><br/>
+                <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="swap_2_lr">Left/Right</button>
+            </div>
+            <div class="uk-float-left" style="padding-left: 7px;">
+                <input class="uk-input uk-form-width-small uk-form-small" id="c6_name" type="text" placeholder="Name"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c6_twitter" type="text" placeholder="@Twitter"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c6_pronouns" type="text" placeholder="Pronouns"><br/>
+                <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="swap_2_cr">Ctr/Right</button>
+            </div>
+        </div> 
+        <div class="uk-margin">
+            Pairing 3 <br />
+            <div class="uk-float-left">
+                <input class="uk-input uk-form-width-small uk-form-small" id="c7_name" type="text" placeholder="Name"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c7_twitter" type="text" placeholder="@Twitter"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c7_pronouns" type="text" placeholder="Pronouns"><br/>
+                <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="swap_3_lc">Left/Ctr</button>
+            </div>
+            <div class="uk-float-left" style="padding-left: 6px;">
+                <input class="uk-input uk-form-width-small uk-form-small" id="c8_name" type="text" placeholder="Name"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c8_twitter" type="text" placeholder="@Twitter"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c8_pronouns" type="text" placeholder="Pronouns"><br/>
+                <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="swap_3_lr">Left/Right</button>
+            </div>
+            <div class="uk-float-left" style="padding-left: 7px;">
+                <input class="uk-input uk-form-width-small uk-form-small" id="c9_name" type="text" placeholder="Name"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c9_twitter" type="text" placeholder="@Twitter"><br/>
+                <input class="uk-input uk-form-width-small uk-form-small" id="c9_pronouns" type="text" placeholder="Pronouns"><br/>
+                <button class="uk-button uk-button-secondary uk-button-small uk-width-1-1" id="swap_3_cr">Ctr/Right</button>
+            </div>
+            <div style="float:left; padding-top:5px;width:100%;"></div>
+            <button class="uk-button uk-button-primary uk-button-small uk-float-right" id="updatebutton">Update</button>
+            <button class="uk-button uk-button-warning uk-button-small uk-float-left" id="swap_1_2">Swap 1 & 2</button>
+            <button class="uk-button uk-button-warning uk-button-small uk-float-left" id="swap_2_3">Swap 2 & 3</button>
+            
+        </div>
+        
+    </fieldset>
+    
+</body>
+<script src="js/dashboards/commentary.js"></script>
+</html>

@@ -1,0 +1,316 @@
+@font-face {
+    font-family: D-DIN-Bold;
+    src:url("../fonts/D-DIN-Bold.otf");
+}
+@font-face {
+    font-family: D-DIN;
+    src:url("../fonts/D-DIN.otf");
+}
+@font-face {
+    font-family: GoBold-Bold;
+    src:url("../fonts/Gobold-Bold.otf");
+}
+@font-face {
+    font-family: Dispense;
+    src:url("../fonts/Dispence.otf");
+}
+body{
+    font-family: "Dispense";
+    background-color:transparent;
+    display: inline-block;
+    overflow: hidden;
+}
+
+/*standard smash colors*/
+.red{
+    background-color:red;
+}
+.blue{
+    background-color:blue;
+}
+.yellow{
+    background-color:yellow;
+}
+.green{
+    background-color:green;
+}
+
+.hide{
+    display:none;
+}
+
+
+.elogo{
+    background-image: url(../images/sponsors/gsa-white.png);
+}
+.elogo-large{
+    background-image: url(../images/sponsors/yoshi-large.png);
+}
+
+.spon_1{
+    background-image: url(../images/sponsors/gg.png);
+}
+.spon_2{
+    background-image: url(../images/sponsors/twitch.png);
+}
+.spon_3{
+    background-image: url(../images/sponsors/vgbc.png);
+}
+.spon_4{
+    background-image: url(../images/sponsors/urban-arts.png);
+}
+.spon_5{
+    background-image: url(../images/sponsors/the-recipe-run.png);
+}
+.spon_l3box{
+    position: absolute;
+    left:14px;
+    width:196px;
+    height: 90px;
+    top: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg_main_grad{
+    /*for bar + lower third background */
+    background: linear-gradient(0deg, rgb(0, 3, 21) 0%, rgb(0, 3, 21) 100%);
+    /*complementary font folor*/
+    color: rgb(255, 255, 255);
+}
+.bg_main{
+    /*for simple backgrounds where a gradient would be too much */
+    background-color: rgba(2,0,36,1);
+    /*complementary font folor*/
+    color: rgba(25,35,32,1);
+}
+
+.bg_alt_grad{
+    background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(2,0,36,1) 50%, rgba(9,9,121,1) 100%);
+}
+
+.highlight-border{
+    /*should set this to the same color as .accent2*/
+    border: 2px;
+    border-color:rgba(247, 153, 253);
+    box-sizing: border-box;
+    border-style: solid;
+}
+
+.accent1{
+    /*accent bars + W/L */
+    background-color: rgb(62, 224, 255);
+    color: rgba(0,3,21,1);
+}
+
+.accent2{
+    /*Pronoun box / score box*/
+    background-color: rgb(62, 224, 255);
+    color: rgb(0,3,21,1);
+}
+.accentg{
+    /*for dividers in l3s etc*/
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(62, 224, 255) 50%, rgba(255, 255, 255, 0) 100%);
+    height:2px;
+    width:100%;
+}
+.hltext{
+    /*sponsor*/
+    color: rgb(247, 153, 253);
+}
+
+
+/*4 logo rotation code */
+.fade4-1 {
+    animation-name: cycle4-1;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 32s;
+    animation-direction: forwards;
+}
+.fade4-2 {
+    animation-name: cycle4-2;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 32s;
+    animation-direction: forwards;
+}
+.fade4-3 {
+    animation-name: cycle4-3;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 32s;
+    animation-direction: forwards;
+}
+.fade4-4 {
+    animation-name: cycle4-4;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 32s;
+    animation-direction: forwards;
+}
+
+@keyframes cycle4-1 {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    24% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    26% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    51% {
+        opacity: 0;
+    }
+    74% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    76% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes cycle4-2 {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+    }
+    24% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    26% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    51% {
+        opacity: 0;
+    }
+    74% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    76% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes cycle4-3 {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+    }
+    24% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    26% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    51% {
+        opacity: 1;
+    }
+    74% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    76% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes cycle4-4 {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+    }
+    24% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    26% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    51% {
+        opacity: 0;
+    }
+    74% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    76% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

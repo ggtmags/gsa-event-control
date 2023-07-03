@@ -44,6 +44,14 @@
         "file": "lower_thirds.html",
         "headerColor": "#9f9bbd",
         "workspace": "GSA-Control"
+      },
+      {
+        "name": "Commentary",
+        "title": "Commentary",
+        "width": 3,
+        "file": "commentary.html",
+        "headerColor": "#9f9bbd",
+        "workspace": "GSA-Control"
       }
     ],
     "graphics": [
@@ -69,6 +77,16 @@
       },
       {
         "file": "brb-stream.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "l3_2_com.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "l3_3_com.html",
         "width": 1920,
         "height": 1080
       }
