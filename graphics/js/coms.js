@@ -1,12 +1,12 @@
-const c1_name_rep = nodecg.Replicant('c1_name', 'gg-overlay-base');
-const c2_name_rep = nodecg.Replicant('c2_name', 'gg-overlay-base');
-const c3_name_rep = nodecg.Replicant('c3_name', 'gg-overlay-base');
-const c1_twitter_rep = nodecg.Replicant('c1_twitter', 'gg-overlay-base');
-const c2_twitter_rep = nodecg.Replicant('c2_twitter', 'gg-overlay-base');
-const c3_twitter_rep = nodecg.Replicant('c3_twitter', 'gg-overlay-base');
-const c1_pronouns_rep = nodecg.Replicant('c1_pronouns', 'gg-overlay-base');
-const c2_pronouns_rep = nodecg.Replicant('c2_pronouns', 'gg-overlay-base');
-const c3_pronouns_rep = nodecg.Replicant('c3_pronouns', 'gg-overlay-base');
+const c1_name_rep = nodecg.Replicant('c1_name', 'gsa-event-control');
+const c2_name_rep = nodecg.Replicant('c2_name', 'gsa-event-control');
+const c3_name_rep = nodecg.Replicant('c3_name', 'gsa-event-control');
+const c1_twitter_rep = nodecg.Replicant('c1_twitter', 'gsa-event-control');
+const c2_twitter_rep = nodecg.Replicant('c2_twitter', 'gsa-event-control');
+const c3_twitter_rep = nodecg.Replicant('c3_twitter', 'gsa-event-control');
+const c1_pronouns_rep = nodecg.Replicant('c1_pronouns', 'gsa-event-control');
+const c2_pronouns_rep = nodecg.Replicant('c2_pronouns', 'gsa-event-control');
+const c3_pronouns_rep = nodecg.Replicant('c3_pronouns', 'gsa-event-control');
 
 c1_name_rep.on('change', (newValue, oldValue) => {
     c1_name.innerText = `${newValue}` ;
